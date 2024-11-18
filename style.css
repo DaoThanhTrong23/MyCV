@@ -1,27 +1,37 @@
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    justify-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-header {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px;
+.container
+{
+    position: relative;
+    background-color: rgb(226, 231, 231);
+    height: 1250px;
+    width: 1300px;
+    flex-direction: row;
+    
 }
-
-h1 {
-    margin: 0;
+.myphoto
+{
+    position: relative;
+    width: 250px;
+    height: auto;
 }
-
-section {
-    padding: 20px;
-    margin: 10px;
-    background-color: white;
+.infor
+{
+    width: 500px;
+    height:98%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(163, 159, 159);
+    position: absolute;
 }
-
-h2 {
-    color: #333;
+.skill
+{
+    margin-left: 600px;
+    position: absolute;
+    padding-right: 20px;
 }
