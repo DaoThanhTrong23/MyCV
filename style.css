@@ -35,3 +35,98 @@ body {
     position: absolute;
     padding-right: 20px;
 }
+/* mobile */
+@media only screen and (max-width: 739px)
+{
+    h1
+    {
+        font-size: 17px;
+    }
+    h2{
+        font-size: 16px;
+    }
+    h3{
+        font-size: 15px;
+    }
+    h4{
+        font-size: 12px;
+    }
+    li{
+        font-size: 12px;
+    }
+    .container
+    {
+        position: relative;
+        background-color: rgb(226, 231, 231);
+        height: 1250px;
+        width: 400px;
+        flex-direction: row;
+    }
+    .myphoto
+    {
+        position: relative;
+        width: 80px;
+        height: auto;
+    }
+    .infor
+    {
+        width: 150px;
+        height:98%;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: rgb(163, 159, 159);
+        position: absolute;
+    }
+    .skill
+    {
+        margin-top: 20px;
+        margin-left: 200px;
+        position: absolute;
+        padding-right: 20px;
+    }
+    .textMail
+    {
+        font-size: 10px;
+    }
+}
+/* tablet */
+@media only screen and (min-width: 740px) and (max-width: 1024px)
+{
+    .container
+    {
+        position: relative;
+        background-color: rgb(226, 231, 231);
+        height: 1250px;
+        width: 600px;
+        flex-direction: row;
+    }
+    .myphoto
+    {
+
+        position: relative;
+        width: 100px;
+        height: auto;
+    }
+    .infor
+    {
+        width: 150px;
+        height:98%;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: rgb(163, 159, 159);
+        position: absolute;
+    }
+    .skill
+    {
+        margin-top: 20px;
+        margin-left: 200px;
+        position: absolute;
+        padding-right: 20px;
+    }
+    .textMail
+    {
+        font-size: 10px;
+    }
+}
